@@ -9,4 +9,9 @@ print('hello' + 'zoe')
 print('hello' + ' ' + 'zoe')
 
 # using the input function
-len(input('What is your name? '))
+print(len(input('What is your name? ')))
+
+# variables
+name = input('What is your name?')
+length = len(name)
+print(length)
